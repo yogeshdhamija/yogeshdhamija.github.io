@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html><head>
-<title>Recipes</title>
+<title>Chai</title>
 
 
 
@@ -51,7 +51,29 @@
 
 
 
+  
+    <script src="https://ydhamija96.github.io//js/toc-collapse.js"></script>
+  
 
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script src="/vendor/js/md5.min.js"></script>
+<script>
+  var gitalk = new Gitalk({
+  clientID: 'ae50d2d52ebc34f5b95a',
+  clientSecret: 'e65a3ba2ee88f32e04e8a8609446462ea91f60c7',
+  repo: 'ydhamija96.github.io',
+  owner: 'ydhamija96',
+  admin: ['ydhamija96'],
+  id: md5(location.pathname),
+  distractionFreeMode: 'false'
+  });
+  window.onload = function () {
+        gitalk.render('gitalk-container')
+  }
+</script>
 
 
 
@@ -161,6 +183,11 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 </div><div ref="extraContainer" class="extra-container">
     
     
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+</div>
+    
     <div class="pagination">
         <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
             <i class="material-icons pagination-action-icon">
@@ -176,8 +203,6 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 brightness_7
             </i>
         </a>
-        
-        
         
         
     </div>
@@ -251,6 +276,11 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
             
             
+            <div class="toc">
+
+
+</div>
+            
         </div>
     </div>
 </div>
@@ -293,94 +323,102 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
             <div id="content">
 <div ref="streamContainer" class="stream-container">
     <div class="post-list-container post-list-container-shadow">
-        
-            <a class="a-block">
-                <div class="post-item-wrapper post-item-wrapper-no-hover">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title post-item-title-small year">
-                                2020
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
+        <div class="post">
             
-            <a href="/recipes/chai/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                Chai
-                            </div>
-                            <div class="post-item-meta">
-    2020-07-16
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-</div>
+            
+            
+                
+            
 
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-            <a href="/recipes/chole/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                Recipe: Chole
-                            </div>
-                            <div class="post-item-meta">
-    2020-07-10
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-</div>
+            <div class="post-head-wrapper"
+                
+                    
+                    
+                    style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/f0/Kullad_chai.jpg')"
+                    
+                
+            >
+                <div class="post-title">
+                    Chai
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2020-07-16 18:52
+                        </time>
+                        
 
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-            <a href="/recipes/tadka/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                Recipe: Tadka
-                            </div>
-                            <div class="post-item-meta">
-    2020-06-25
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-</div>
+                        
 
-                        </div>
+                        
+                        
                     </div>
                 </div>
-            </a>
+            </div>
             
-        
-    </div>
-</div>
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>~4 servings.</p>
+<p><strong>Into a large pot on stove:</strong><br>
+3 cups water<br>
+5 tablespoons Assam loose leaf black tea <br>
+1 inch ginger (adhrak) sliced<br>
+10 cloves (laung)<br>
+15 green cardamom pods (elaichi)<br>
+2 inch cinnamon (daalchini) stick<br>
+15 black peppercorns<br>
+5 star anises<br>
+0.5 teaspoon fennel seeds (saumph)</p>
+<p><strong>When at a low boil:</strong>
+Cover pot<br>
+Lower heat to simmer and let it sit</p>
+<p><strong>After at least 10 minutes:</strong>
+3 cups milk</p>
+<hr>
+<p>Source: <a href="https://medium.com/@harshadkulkarni/the-perfect-indian-masala-chai-4e98fabf42ec">&ldquo;The Perfect Indian Masala Chai&rdquo;, Medium article by Harshad Kulkarni</a>, with modifications.<br>
+Image attribution: <a href="https://commons.wikimedia.org/wiki/File:Kullad_chai.jpg">by Thecuriouseye, on Wikimedia Commons</a>. Licence: <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</a>.</p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2020-07-16</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts">
+			Next<br>No newer posts.
+                </a>
+                
+                
+                
+                <a class="older-posts" href="https://ydhamija96.github.io/recipes/chole/">
+			Previous<br>Recipe: Chole
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+<div id="gitalk-container"></div>
+
+
+
+
 
 
             </div>
+        </div>
+    </div>
+</div>
 
-
-<div id="single-column-footer">
+            </div><div id="single-column-footer">
 Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
 <br>
 Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
