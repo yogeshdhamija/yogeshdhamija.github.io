@@ -2,57 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on My Thoughts</title>
-    <link>https://ydhamija96.github.io/tags/</link>
+    <link>https://yogeshdhamija.github.io/tags/</link>
     <description>Recent content in Tags on My Thoughts</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Aug 2020 04:00:48 +0000</lastBuildDate>
-    
-	<atom:link href="https://ydhamija96.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 31 Aug 2020 04:00:48 +0000</lastBuildDate><atom:link href="https://yogeshdhamija.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>indian</title>
-      <link>https://ydhamija96.github.io/tags/indian/</link>
+      <link>https://yogeshdhamija.github.io/tags/indian/</link>
       <pubDate>Mon, 31 Aug 2020 04:00:48 +0000</pubDate>
       
-      <guid>https://ydhamija96.github.io/tags/indian/</guid>
+      <guid>https://yogeshdhamija.github.io/tags/indian/</guid>
       <description></description>
     </item>
     
     <item>
       <title>recipe</title>
-      <link>https://ydhamija96.github.io/tags/recipe/</link>
+      <link>https://yogeshdhamija.github.io/tags/recipe/</link>
       <pubDate>Mon, 31 Aug 2020 04:00:48 +0000</pubDate>
       
-      <guid>https://ydhamija96.github.io/tags/recipe/</guid>
+      <guid>https://yogeshdhamija.github.io/tags/recipe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>fiction</title>
-      <link>https://ydhamija96.github.io/tags/fiction/</link>
+      <link>https://yogeshdhamija.github.io/tags/fiction/</link>
       <pubDate>Wed, 24 Jun 2020 15:22:34 -0500</pubDate>
       
-      <guid>https://ydhamija96.github.io/tags/fiction/</guid>
+      <guid>https://yogeshdhamija.github.io/tags/fiction/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sci-fi</title>
-      <link>https://ydhamija96.github.io/tags/sci-fi/</link>
+      <link>https://yogeshdhamija.github.io/tags/sci-fi/</link>
       <pubDate>Wed, 24 Jun 2020 15:22:34 -0500</pubDate>
       
-      <guid>https://ydhamija96.github.io/tags/sci-fi/</guid>
+      <guid>https://yogeshdhamija.github.io/tags/sci-fi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>short-story</title>
-      <link>https://ydhamija96.github.io/tags/short-story/</link>
+      <link>https://yogeshdhamija.github.io/tags/short-story/</link>
       <pubDate>Wed, 24 Jun 2020 15:22:34 -0500</pubDate>
       
-      <guid>https://ydhamija96.github.io/tags/short-story/</guid>
+      <guid>https://yogeshdhamija.github.io/tags/short-story/</guid>
       <description></description>
     </item>
     
