@@ -5,9 +5,41 @@
     <description>Recent content on My Thoughts</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Oct 2020 10:34:25 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2020 17:09:04 -0500</lastBuildDate>
     
         <atom:link href="https://yogeshdhamija.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>Git State Diagram</title>
+        <link>https://yogeshdhamija.github.io/thoughts/git-state-diagram/</link>
+        <pubDate>Mon, 09 Nov 2020 22:26:22 -0500</pubDate>
+        
+        <guid>https://yogeshdhamija.github.io/thoughts/git-state-diagram/</guid>
+        <description>My Thoughts https://yogeshdhamija.github.io/thoughts/git-state-diagram/ -&lt;script src=&#34;https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js&#34;&gt;&lt;/script&gt;
+&lt;div class=&#34;mermaid&#34;&gt;
+graph TB
+    subgraph &#34;Your Computer&#34;
+        w[&#34;The files you see and work with&lt;br&gt;aka &#39;Working Tree&#39;&lt;br&gt;aka &#39;Working Directory&#39;&#34;] 
+        stash[&#34;Stashed files&lt;br&gt;&lt;br&gt;This is not a real location. It can be used&lt;br&gt;to save things outside of the working tree.&#34;]
+        s[&#34;Staged files&lt;br&gt;aka &#39;Staging area&#39;&lt;br&gt;aka &#39;Index&#39;&lt;br&gt;&lt;br&gt;This is not a real location. It represents&lt;br&gt;files that git has &#39;marked&#39; to be committed&#34;]
+        g[&#34;The .git folder&lt;br&gt;&lt;br&gt;It stores everything organized into commits and branches&lt;br&gt;&lt;br&gt;It&#39;s also where the stash and the staging area are located&#34;]
+        w --&gt;|&#34;git add&#34;| s
+        s --&gt;|&#34;git commit&#34;| g
+        g --&gt;|&#34;git checkout&#34;| w
+        w --&gt;|&#34;git stash&#34;| stash
+        stash --&gt;|&#34;git stash pop&#34;| w
+    end
+    subgraph &#34;Github&#39;s Servers&#34;
+        o[&#34;The .git folder&lt;br&gt;aka &#39;origin&#39;&lt;br&gt;aka &#39;remote&#39;&lt;br&gt;&lt;br&gt;It stores everything organized into commits and branches&#34;]
+    end
+    o --&gt;|&#34;git pull&lt;br&gt;(this also runs &#39;git fetch&#39; in the background)&#34;| w
+    o --&gt;|&#34;git fetch&#34;| g
+    g --&gt;|&#34;git push&#34;| o
+&lt;/div&gt;
+&lt;script&gt;mermaid.initialize({startOnLoad:true});&lt;/script&gt;- https://yogeshdhamija.github.io/thoughts/git-state-diagram/ - </description>
+        </item>
     
     
     
@@ -165,7 +197,7 @@ Image attribution: &lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Chole
 1/2 teaspoon Cumin seeds (jira)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;When brown:&lt;/strong&gt;&lt;br&gt;
 1 cups diced Onion&lt;br&gt;
-2&amp;quot; piece of root of Ginger (adrak), diced&lt;/p&gt;
+2&amp;rdquo; piece of root of Ginger (adrak), diced&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;When brown:&lt;/strong&gt;&lt;br&gt;
 0.5 cups diced Tomato&lt;br&gt;
 &lt;em&gt;??? Chilli Pepper&lt;/em&gt;&lt;/p&gt;
@@ -209,7 +241,7 @@ Acid (lemon/lime juice)&lt;/p&gt;
 &lt;p&gt;A fist slammed hard on the counter, &amp;ldquo;By the human?! What can this young thing do that I can&amp;rsquo;t! I can lift a mountain!&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;Arthur believed him. He tapped the orc on the shoulder to get his attention, and felt the rock of his muscle.&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;Aye, my friend,&amp;rdquo; he said, &amp;ldquo;taken by me. I&amp;rsquo;m sure there are others here that would be more receptive of your charm?&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;Nae,&amp;rdquo; said the dwarf, &amp;ldquo;I wan&#39; te know what makes ye better than us who been buildin&#39; when ye gran&amp;rsquo;father still be suckling milk!&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Nae,&amp;rdquo; said the dwarf, &amp;ldquo;I wan&amp;rsquo; te know what makes ye better than us who been buildin&amp;rsquo; when ye gran&amp;rsquo;father still be suckling milk!&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;Ah but we can so easily tell you,&amp;rdquo; said Drea.&lt;/p&gt;
 &lt;p&gt;Arthur wasn&amp;rsquo;t so sure. &amp;ldquo;We can?&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;Sure, sure! Please continue your story.&amp;rdquo;&lt;/p&gt;
@@ -224,12 +256,12 @@ Acid (lemon/lime juice)&lt;/p&gt;
 &lt;p&gt;The pair sighed in relief.&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;&amp;ndash;but our tents were made of the same fabric, so I told Matt to hold my beer, and I cut the damn things into wings from my wrists to my ankles. See, I&amp;rsquo;ve got pretty long arms, and I figure my wingspan would be enough to catch enough air that I could glide down to the River.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;At this point, both sets of eyes were as wide as dinner plates, and Drea was quite amused by the rapt attention with which they were absorbed. She could hardly blame them.&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;An&#39; it worked?&amp;rdquo; ventured Redbeard the dwarf. Drea, too, was curious.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;An&amp;rsquo; it worked?&amp;rdquo; ventured Redbeard the dwarf. Drea, too, was curious.&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;Worked?! My friend, it was amazing! It felt like flying! I didn&amp;rsquo;t even bother swimming! Soon as I landed, I climbed the two-day path back up the cliff and I jumped again!&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;Drea was the first to break the silence.&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;You really are something, aren&amp;rsquo;t you, Arthur.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;Human,&amp;rdquo; said the orc, &amp;ldquo;you are lucky to be alive. What drove you to such madness? Why threaten your life?&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;Aye. Ar&#39; ye mad, ye dumb bastard?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Aye. Ar&amp;rsquo; ye mad, ye dumb bastard?&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;No, not mad. Just bored.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;Bored?&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;Neither man had ever heard of the term. It must have been some sort of madness to drive a human &amp;ndash; already with so short a life &amp;ndash; to commit to such a danger so readily. They glanced blankly at each other, clearly confused.&lt;/p&gt;
@@ -255,7 +287,7 @@ Acid (lemon/lime juice)&lt;/p&gt;
         <guid>https://yogeshdhamija.github.io/writing/mutiny/</guid>
         <description>My Thoughts https://yogeshdhamija.github.io/writing/mutiny/ -&lt;p&gt;They&amp;rsquo;re all dumb as rocks. Basalt. They&amp;rsquo;re dumb as basalt. We had a budget of 160,000. That left us with less than 5,000 buffer after we dropped off 20 metric crap-tonnes of basalt and paid the ridiculous taxes to the various governments. That&amp;rsquo;s even after all my tricks. 5,000.&lt;/p&gt;
 &lt;p&gt;Then some ship that hasn&amp;rsquo;t seen a car-wash in at least a century or two rolls around and asks for some money because of some supernova on some planet. It&amp;rsquo;s a scam! Anyone with two brain-cells to rub together and a Dr. Seuss poem for an education could figure that out! Oh, am I burned to a crisp? No? Then no bloody supernova! But nooooooo, they lay on some “we&amp;rsquo;re the last of our species” and “help me obi wan kenobi you&amp;rsquo;re my only hope” and all of a sudden our basalt of a captain gives them 10,000! And then he has the nerve to shrug at me and says “figure it out, Bob.”&lt;/p&gt;
-&lt;p&gt;Well I told ol&#39; Space Brad to help me and I&amp;rsquo;d give him a vacation and a fish, and he got right on board (after he reamed me for calling him Space Brad). So now our captain can go dig up for more basalt while I sell his fancy nacell collection to make up for the money. He&amp;rsquo;s tied up in the brig now. Go get his nacells or imma tell Space Brad to do your face in. And bring beer.&lt;/p&gt;
+&lt;p&gt;Well I told ol&amp;rsquo; Space Brad to help me and I&amp;rsquo;d give him a vacation and a fish, and he got right on board (after he reamed me for calling him Space Brad). So now our captain can go dig up for more basalt while I sell his fancy nacell collection to make up for the money. He&amp;rsquo;s tied up in the brig now. Go get his nacells or imma tell Space Brad to do your face in. And bring beer.&lt;/p&gt;
 - https://yogeshdhamija.github.io/writing/mutiny/ - </description>
         </item>
     
@@ -299,62 +331,6 @@ Acid (lemon/lime juice)&lt;/p&gt;
 &lt;p&gt;I grabbed the ledger from the old guardian, and I claimed its mark for myself, and I smiled. For the first time in years, I truly smiled.&lt;/p&gt;
 &lt;p&gt;“Go now,” I said, “your mother needs you.”&lt;/p&gt;
 - https://yogeshdhamija.github.io/writing/redress/ - </description>
-        </item>
-    
-    
-    
-        <item>
-        <title>Story: The Butterfly</title>
-        <link>https://yogeshdhamija.github.io/writing/butterfly/</link>
-        <pubDate>Wed, 24 Jun 2020 15:22:34 -0500</pubDate>
-        
-        <guid>https://yogeshdhamija.github.io/writing/butterfly/</guid>
-        <description>My Thoughts https://yogeshdhamija.github.io/writing/butterfly/ -&lt;p&gt;&lt;em&gt;Rip&amp;hellip; beep.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Her hands were moving almost of their own accord. Numb. Routine. No thinking.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Rip&amp;hellip; beep.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Two weeks. It had been two weeks now. Almost finished.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Rip&amp;hellip; beep.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;An air hostess&amp;ndash; that&amp;rsquo;s all she&amp;rsquo;d ever been. She didn&amp;rsquo;t do the important things, the big things, like cure cancer or rescue people from burning buildings. But she helped. Little things. She smiled at people on the street. She helped the elderly cross the road. Last month, she had spent every day after work talking to John at the orphanage. An angry little kid, that one, but she knew he just needed someone to talk to.&lt;/p&gt;
-&lt;p&gt;Henry Jones was his name, the last man she smiled at on the street. He walked straight to an AA meeting after. Good thing, too, because he was this close to heading home instead that day, and his wife would have shown him the papers she had finally gotten back from her lawyer. Well, her mother&amp;rsquo;s lawyer, to be more accurate. She couldn&amp;rsquo;t afford it on her own, not with Henry&amp;rsquo;s drinking. It would&amp;rsquo;ve killed him. They would&amp;rsquo;ve found him on the ground next to that building on 34th street. Long way down.&lt;/p&gt;
-&lt;p&gt;She couldn&amp;rsquo;t bring herself to smile at people anymore. She had brushed past a really skinny guy a couple of days ago, sunken eyes and scars on his arms. They found Reg the next day in a rundown apartment, a needle in his arm.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Rip&amp;hellip; beep.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;She should&amp;rsquo;ve smiled.&lt;/p&gt;
-&lt;p&gt;John was a difficult fourteen year old. Ran away three times from the orphanage. They made fun of him for not being so bright because he got caught every time within a few days. He didn&amp;rsquo;t do well in school either. Punched Aron in the face when he made fun of him for it. Always angry.&lt;/p&gt;
-&lt;p&gt;She got him ice cream. Häagen Daz mango sorbet&amp;ndash; now his favorite. He developed a real respect for her. His first real friend, older though she was. He didn&amp;rsquo;t know she knew, of course, and he wasn&amp;rsquo;t the type to say thank you. But once in a while, when he thought she was too busy enjoying her own ice cream to notice (she was more of a vanilla gal), he&amp;rsquo;d stare at her with wet in his eyes. He didn&amp;rsquo;t think she noticed.&lt;/p&gt;
-&lt;p&gt;They went every day to that ice cream store on 29th, at the corner of Grand street. She didn&amp;rsquo;t have ice cream every day, of course. Not with that air hostess figure to keep. But John&amp;rsquo;s growing musculature proved that it did him no harm.&lt;/p&gt;
-&lt;p&gt;It&amp;rsquo;s a good thing she saved him from that life. Prison was where he&amp;rsquo;d end up. Jersey State Prison, to be exact. Assault and battery. But now he was really trying to turn his life around.&lt;/p&gt;
-&lt;p&gt;In twelve years, he&amp;rsquo;d be a research intern at MIT. In fourteen, he&amp;rsquo;d be the lead scientist to find a viable treatment for dementia. And they had made fun of him for not being bright. But she knew.&lt;/p&gt;
-&lt;p&gt;She always knows.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Rip&amp;hellip; beep.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;She didn&amp;rsquo;t do anything big. She left that to that guy in Gotham.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Rip&amp;hellip; beep.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Then again, there was that bolt she had loosened once.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Rip&amp;hellip; beep.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;That pretty redhead would&amp;rsquo;ve been raped and murdered. Brutal. He would&amp;rsquo;ve killed hundreds the next day. Good with explosives, he was, a chemistry major.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Rip&amp;hellip; beep.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;But the support beam fell on them. A loose bolt. The girl died instantly, him the next day. A tragedy, the paper had said. But she knew.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Rip&amp;hellip; beep.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;No. Stop. No thinking. It was almost over.&lt;/p&gt;
-&lt;p&gt;The Butterfly, she liked to call herself back in the early days. Like a superhero. It made her want to wear a cape. She&amp;rsquo;d go out every day, find the littlest things she could do that would have the biggest positive impact. She saved a man&amp;rsquo;s life, years before it was under threat, by slipping a condom in his bag. She stopped suicides every day by shaking a hand, or giving a high five.&lt;/p&gt;
-&lt;p&gt;She&amp;rsquo;d be smiling in her sleep every night.&lt;/p&gt;
-&lt;p&gt;But it got tougher. She saved eight hundred and twelve lives once, by taking two.&lt;/p&gt;
-&lt;p&gt;Then it got tougher. She saved six, by taking one.&lt;/p&gt;
-&lt;p&gt;Then it got painful. She saved the woman that would eradicate the flu, a disease killing millions each year. But she had to kill a family of four. Innocent children.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Rip&amp;hellip; beep.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;She didn&amp;rsquo;t call herself the Butterfly anymore. She didn&amp;rsquo;t smile at night.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Rip&amp;hellip; beep.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;It had been two weeks since she became sure. It was either the towers, or the white house. There was no other way.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Rip&amp;hellip; beep.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;It was better this way. She knew that. She had seen it. The drone strikes would stay on foreign soil, not here. The wars would be shorter. There would be no draft.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Rip&amp;hellip; beep.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;“Next,” she called. “Next!”&lt;/p&gt;
-&lt;p&gt;Her voice was hoarse. Her tone was callous.&lt;/p&gt;
-&lt;p&gt;That was the last one. The line had ended. They had all boarded. She waited for a couple more minutes. She contemplated just leaving. She could walk down the corridor and survive. She could save more lives.&lt;/p&gt;
-&lt;p&gt;She sighed. No. No thinking. It was too much. She packed up her purse, inserted the ticket stubs into their proper slot, locked the drawer, and boarded the plane. United Airlines flight 93, bound to San Francisco. It wouldn&amp;rsquo;t get there.&lt;/p&gt;
-&lt;p&gt;But it wouldn&amp;rsquo;t reach D.C. either. She&amp;rsquo;d made sure of it. She&amp;rsquo;d spilled that coffee that ensured that those people would be on the flight. They&amp;rsquo;d stop it.&lt;/p&gt;
-&lt;p&gt;That coffee that damned so many others.&lt;/p&gt;
-&lt;p&gt;She strapped herself in, and took a look at her watch. Eight o&amp;rsquo;clock in the morning, Tuesday, September the 11th, 2001.&lt;/p&gt;
-- https://yogeshdhamija.github.io/writing/butterfly/ - </description>
         </item>
     
     
