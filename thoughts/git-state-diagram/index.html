@@ -167,6 +167,55 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
     <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
 
 
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#how-to-operate-git" onclick="onNavClick(`#how-to-operate-git-nav`)" id="how-to-operate-git-nav">
+									How to operate git:
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#how-the-git-directory-works" onclick="onNavClick(`#how-the-git-directory-works-nav`)" id="how-the-git-directory-works-nav">
+									How the .git directory works:
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
 </div>
     
     <div class="pagination">
@@ -240,6 +289,55 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
             
             <div class="toc">
 
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#how-to-operate-git" onclick="onNavClick(`#how-to-operate-git-nav`)" id="how-to-operate-git-nav">
+									How to operate git:
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#how-the-git-directory-works" onclick="onNavClick(`#how-the-git-directory-works-nav`)" id="how-the-git-directory-works-nav">
+									How the .git directory works:
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
 
 </div>
             
@@ -316,28 +414,11 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
                 <div class="post-body" v-pre>
                 
-                    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-<div class="mermaid">
-graph TB
-    subgraph "Your Computer"
-        w["The files you see and work with<br>aka 'Working Tree'<br>aka 'Working Directory'"] 
-        stash["Stashed files<br><br>This is not a real location. It can be used<br>to save things outside of the working tree."]
-        s["Staged files<br>aka 'Staging area'<br>aka 'Index'<br><br>This is not a real location. It represents<br>files that git has 'marked' to be committed"]
-        g["The .git folder<br><br>It stores everything organized into commits and branches<br><br>It's also where the stash and the staging area are located"]
-        w -->|"git add"| s
-        s -->|"git commit"| g
-        g -->|"git checkout"| w
-        w -->|"git stash"| stash
-        stash -->|"git stash pop"| w
-    end
-    subgraph "Github's Servers"
-        o["The .git folder<br>aka 'origin'<br>aka 'remote'<br><br>It stores everything organized into commits and branches"]
-    end
-    o -->|"git pull<br>(this also runs 'git fetch' in the background)"| w
-    o -->|"git fetch"| g
-    g -->|"git push"| o
-</div>
-<script>mermaid.initialize({startOnLoad:true});</script>
+                    <h1 id="how-to-operate-git">How to operate git:</h1>
+<p><img src="/gitStateDiagram.drawio.svg" alt="Git State Diagram"></p>
+<h1 id="how-the-git-directory-works">How the <code>.git</code> directory works:</h1>
+<p><img src="/gitFolderOrg.drawio.svg" alt="Git Folder Organization Diagram"></p>
+
                     
                     <HR width="100%" id="EOF">
 		    <p style="color:#777;">Last modified on 2020-11-09</p>

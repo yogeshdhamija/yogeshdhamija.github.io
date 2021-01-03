@@ -6,27 +6,14 @@
     <description>Recent content in Thoughts on My Thoughts</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Nov 2020 22:26:22 -0500</lastBuildDate>
-    
-	<atom:link href="https://yogeshdhamija.github.io/thoughts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 09 Nov 2020 22:26:22 -0500</lastBuildDate><atom:link href="https://yogeshdhamija.github.io/thoughts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git State Diagram</title>
       <link>https://yogeshdhamija.github.io/thoughts/git-state-diagram/</link>
       <pubDate>Mon, 09 Nov 2020 22:26:22 -0500</pubDate>
       
       <guid>https://yogeshdhamija.github.io/thoughts/git-state-diagram/</guid>
-      <description>graph TB subgraph &#34;Your Computer&#34; w[&#34;The files you see and work with
-aka &#39;Working Tree&#39;
-aka &#39;Working Directory&#39;&#34;] stash[&#34;Stashed files
-This is not a real location. It can be used
-to save things outside of the working tree.&#34;] s[&#34;Staged files
-aka &#39;Staging area&#39;
-aka &#39;Index&#39;
-This is not a real location. It represents
-files that git has &#39;marked&#39; to be committed&#34;] g[&#34;The .git folder
-It stores everything organized into commits and branches</description>
+      <description>How to operate git: How the .git directory works: </description>
     </item>
     
     <item>

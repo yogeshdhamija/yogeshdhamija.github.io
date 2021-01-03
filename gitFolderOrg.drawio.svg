@@ -1,0 +1,243 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="571px" height="491px" viewBox="-0.5 -0.5 571 491" content="&lt;mxfile host=&quot;9159b1c5-4ee6-437a-984f-0b0efcfd52fa&quot; modified=&quot;2021-01-03T04:50:12.814Z&quot; agent=&quot;5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36&quot; version=&quot;13.10.0&quot; etag=&quot;0p2wDdE5rEFhm4u9BYON&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;ekjb1PYxARZE-dCY8Bhp&quot; name=&quot;Page-1&quot;&gt;3Vpbc5s6EP41TN4yxlxsP8ZOejvpTGdyZnr6qIAMagTyESK2++u7AskghFOPTe0kLxm06Lrf9y2rdRxvkW0+crRKv7IYU2c8ijeOd+uMxxPPh7/SsK0N02BcGxJO4trkNoYH8gsr40hZSxLjwugoGKOCrExjxPIcR8KwIc7Z2uy2ZNRcdYUSbBkeIkRt63cSi1SfYtTYP2GSpHpld6TeZEh3VoYiRTFbt0zeneMtOGOifso2C0yl77Rf6nEf9rzdbYzjXBwyQPn9GdFSne3fFIPh6joh4kr5BnN4+FkWQm5YMA6uH4cU5p8/wpswkU/IkSuF/5dy53PBMW5a8IotKziyjIjiWh1dbLU/OSvzGMstjaD7OiUCP6xQJN+ugUBgS0VGoeXKlShJcnimeCknf8ZcEIDmRpkFW1VLVseCd3iz1zXuzuFAVMwyLPgWuugBGk5FUg3ZukE8mChb2kLbnykjUixLdlM3QMCDwqIfF8/yEY6BgqrJuEhZwnJE7xrr3PRi0+eeSZdUvvuJhdgqPaFSMNOzeEPEf3L4daBaP9Rk8vl2025sdSOHk7UGyeYPPZ9sNMOqlh5Xn08e6mV4wAes5JHqpeKGQDzBqtekH0SOKRLk2Zz9FER8Syk1nW0p9Igjlri0BXIzXxj6AChAa4RK7bk29pRCaMMHaKNY1fFuSTaSCUPowJsGhg78HiFMe3QwHUAGwXuXQVTy52qv7tGamNiamJ2oiWroDedo2+qwYiQXRWvmb9LQ4olnxktvNOpAXc/YAL/b2kFcCI/gguHeN0WMwbjgji5BhuAvk2EyaDS+vfvwVqOxduw5ovHUcvpnmdZtWSmTuxRHT6yUHBApKXbpnnYn9JJp5JrxJ5In0lrliAvD0/C6pHGduQtE8u43swNUBxjwqjARKARnT3jBKONgyVkuUYPlaMekc8oIUIBs184qMxLHdB/kZmAZAGS/k3p6gQ2y6wc2ysEAKM8GldbHT5/firTGs27Cfz5p6ZvtQF7/8s/9W/G6f0mvu68honXAeq9BLQg7QPtnDGquXei4ANKdYPhekXaD0ETaC8+ItGchPecoB4glrnAGZ1fLatWrUFKYATNFssdKZbUVC8AB4NSSIu60a1mj7ynO+6gkS2KP1dI1VYi4Kqqp5RYKlOH6pGpMTSxNwmp1TcK91TL3zyG7zRZn7MUIT5eRRS14E0ZT/LiUgxknvySF9RT9FbZOGW6I1DYYX3eTW4s3XtDDm0G+Bb79XTz3/XLPXbG5HfbfFXN2jx7xDnHA7oWQcRgJnKOun67C5uK1CF9Hga3eWKcM/ofaRaf/yddV7RgrKIHt5jSBW7F/CCVOTHdMelKyHhl6Q8jwFZR5jpThJYX3ago/oddRXviy8rqFok7/05VnV4p2yrNTsIsrL5h1v4F92uu5Dg2ivenFtTeIhvrrtLqC21+nPVJ3M1t3p/4gddwHb2yyxh243uraVaGvqBDVL8NaT69NS/50coCWhvmOQbP50b72b/OfD97dbw==&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <rect x="0" y="0" width="570" height="490" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 568px; height: 1px; padding-top: 7px; margin-left: 2px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: left; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                The '.git' folder just stores
+                                <br/>
+                                a "tree" of commits.
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="2" y="19" fill="#000000" font-family="Helvetica" font-size="12px">
+                    The '.git' folder just stores...
+                </text>
+            </switch>
+        </g>
+        <path d="M 275 400 L 275 366.37" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 275 361.12 L 278.5 368.12 L 275 366.37 L 271.5 368.12 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <ellipse cx="275" cy="440" rx="40" ry="40" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 440px; margin-left: 236px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                commit
+                                <br/>
+                                <br/>
+                                added "ABC" to file 1
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="275" y="444" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    commit...
+                </text>
+            </switch>
+        </g>
+        <path d="M 275 280 Q 180 280 180 266.37" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 180 261.12 L 183.5 268.12 L 180 266.37 L 176.5 268.12 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 275 280 Q 380 280 380 266.37" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 380 261.12 L 383.5 268.12 L 380 266.37 L 376.5 268.12 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <ellipse cx="275" cy="320" rx="40" ry="40" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 320px; margin-left: 236px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                commit
+                                <br/>
+                                <br/>
+                                added "DEF" to file 1
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="275" y="324" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    commit...
+                </text>
+            </switch>
+        </g>
+        <rect x="300" y="330" width="145" height="50" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 143px; height: 1px; padding-top: 355px; margin-left: 301px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                If you checkout this commit to your working tree, file 1 would contain "ABCDEF"
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="373" y="359" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    If you checkout this com...
+                </text>
+            </switch>
+        </g>
+        <ellipse cx="180" cy="220" rx="40" ry="40" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 220px; margin-left: 141px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                commit
+                                <br/>
+                                <br/>
+                                added "GHI" to file 1
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="180" y="224" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    commit...
+                </text>
+            </switch>
+        </g>
+        <ellipse cx="380" cy="220" rx="40" ry="40" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 220px; margin-left: 341px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                commit
+                                <br/>
+                                <br/>
+                                added "JKL" to file 1
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="380" y="224" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    commit...
+                </text>
+            </switch>
+        </g>
+        <rect x="410" y="220" width="145" height="50" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 143px; height: 1px; padding-top: 245px; margin-left: 411px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                If you checkout this commit to your working tree, file 1 would contain "ABCDEFJKL"
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="483" y="249" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    If you checkout this com...
+                </text>
+            </switch>
+        </g>
+        <rect x="6" y="216" width="145" height="50" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 143px; height: 1px; padding-top: 241px; margin-left: 7px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                If you checkout this commit to your working tree, file 1 would contain "ABCDEFGHI"
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="79" y="245" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    If you checkout this com...
+                </text>
+            </switch>
+        </g>
+        <rect x="202.5" y="10" width="355" height="80" rx="12" ry="12" fill="#dae8fc" stroke="#6c8ebf" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 353px; height: 1px; padding-top: 17px; margin-left: 205px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: left; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Branches are just "tags" that point to particular commits. When you checkout a branch, it's the same as checking out that commit
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="205" y="29" fill="#000000" font-family="Helvetica" font-size="12px">
+                    Branches are just "tags" that point to particular commits....
+                </text>
+            </switch>
+        </g>
+        <path d="M 262.5 80 Q 262.5 130 221.25 130 Q 180 130 180 173.63" fill="none" stroke="#6c8ebf" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 180 178.88 L 176.5 171.88 L 180 173.63 L 183.5 171.88 Z" fill="#6c8ebf" stroke="#6c8ebf" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="220" y="50" width="85" height="30" rx="4.5" ry="4.5" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 83px; height: 1px; padding-top: 65px; margin-left: 221px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Branch A
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="263" y="69" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Branch A
+                </text>
+            </switch>
+        </g>
+        <path d="M 482.5 80 Q 482.5 140 431.25 140 Q 380 140 380 173.63" fill="none" stroke="#6c8ebf" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 380 178.88 L 376.5 171.88 L 380 173.63 L 383.5 171.88 Z" fill="#6c8ebf" stroke="#6c8ebf" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="442.5" y="50" width="80" height="30" rx="4.5" ry="4.5" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 65px; margin-left: 444px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Branch B
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="483" y="69" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Branch B
+                </text>
+            </switch>
+        </g>
+        <path d="M 380 80 Q 275 80 275 273.63" fill="none" stroke="#6c8ebf" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 275 278.88 L 271.5 271.88 L 275 273.63 L 278.5 271.88 Z" fill="#6c8ebf" stroke="#6c8ebf" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="337.5" y="50" width="85" height="30" rx="4.5" ry="4.5" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 83px; height: 1px; padding-top: 65px; margin-left: 339px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Master Branch
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="380" y="69" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Master Branch
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://desk.draw.io/support/solutions/articles/16000042487" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Viewer does not support full SVG 1.1
+            </text>
+        </a>
+    </switch>
+</svg>
