@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html><head>
-	<meta name="generator" content="Hugo 0.79.1" />
-<title>The Collection</title>
+<title>Website Rendering Strategies</title>
 
 
-
-  
 
 
 <meta charset="utf-8">
@@ -13,7 +10,7 @@
 <meta name="google-site-verification" content="">
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
 <meta content="telephone=no" name="format-detection">
-<meta name="description" content="The collection of things I find interesting, things I learn, things I create, and things I want to remember.">
+<meta name="description" content="">
 <meta name="renderer" content="webkit">
 <meta name="theme-color" content="#ffffff">
 
@@ -54,7 +51,29 @@
 
 
 
+  
+    <script src="https://yogeshdhamija.github.io//js/toc-collapse.js"></script>
+  
 
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script src="/vendor/js/md5.min.js"></script>
+<script>
+  var gitalk = new Gitalk({
+  clientID: '0ff3b3830d2803ebb7c7',
+  clientSecret: '9f8a3848c415c195cb0deaf3b5a6b5435359adfc',
+  repo: 'yogeshdhamija.github.io',
+  owner: 'yogeshdhamija',
+  admin: ['yogeshdhamija'],
+  id: md5(location.pathname),
+  distractionFreeMode: 'false'
+  });
+  window.onload = function () {
+        gitalk.render('gitalk-container')
+  }
+</script>
 
 
 
@@ -67,7 +86,7 @@
 <body>
     	<div id="app"><div ref="sideContainer" class="side-container">
     
-    <a class="a-block nav-head active" href="https://yogeshdhamija.github.io/">
+    <a class="a-block nav-head false" href="https://yogeshdhamija.github.io/">
     
         <div class="nav-title">
             The Collection
@@ -85,9 +104,11 @@
             
             
             
+                
             
             
-            <a class="a-block nav-link-item false" href="/learned">
+            
+            <a class="a-block nav-link-item active" href="/learned">
                 Things I Learned
             </a>
             
@@ -143,6 +164,11 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 </div><div ref="extraContainer" class="extra-container">
     
     
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+</div>
+    
     <div class="pagination">
         <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
             <i class="material-icons pagination-action-icon">
@@ -160,24 +186,6 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
         </a>
         
         
-        
-            <div class="pagination-indicator">
-                <span style="text-align: center">
-                    1<br><div style="display: inline-block; transform: rotate(-28deg)">-</div><br>2
-                </span>
-            </div>
-            
-            
-
-            
-            <a class="pagination-action" href="/page/2/">
-                <i class="material-icons pagination-action-icon">
-                    chevron_right
-                </i>
-            </a>
-            
-        
-        
     </div>
 </div>
 <div class="single-column-drawer-container" ref="drawer"
@@ -190,9 +198,11 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
                 
                 
+                    
                 
                 
-                <a class="a-block drawer-menu-item false" href="/learned">
+                
+                <a class="a-block drawer-menu-item active" href="/learned">
                     Things I Learned
                 </a>
                 
@@ -227,6 +237,11 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 </a>
                 
             
+            
+            <div class="toc">
+
+
+</div>
             
         </div>
     </div>
@@ -269,339 +284,90 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 </div>
 
             <div id="content">
-
 <div ref="streamContainer" class="stream-container">
-    <div class="post-list-container post-list-container-no-background">
-        
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
             
-            <a href="https://yogeshdhamija.github.io/learned/git-state-diagram/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-divider">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                Git State Diagram
-                            </div>
-                            <div class="post-item-summary">
-                                
-                            </div>
-                            <div class="post-item-meta">
-    2020-11-09
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-</div>
+            
+            
 
-                        </div>
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    Website Rendering Strategies
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2020-10-29 10:34
+                        </time>
+                        
+
+                        
+
                         
                         
                     </div>
                 </div>
+            </div>
             
-        
-            
-            <a href="https://yogeshdhamija.github.io/learned/website-rendering-strategies/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-divider">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                Website Rendering Strategies
-                            </div>
-                            <div class="post-item-summary">
-                                
-                            </div>
-                            <div class="post-item-meta">
-    2020-10-29
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-</div>
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>Here&rsquo;s a quick summary of the different ways you can load a website.</p>
+<p><strong>SSR (Server Side Rendering)</strong>: The classic way. Browser makes request to server, server loads an HTML/CSS/JS bundle, sends it to browser.</p>
+<p><strong>CSR (Client Side Rendering)</strong>: The vanilla React way. Browser makes a request to server, server sends back JS code which runs on browser, triggering browser to further make requests to load all assets.</p>
+<p><strong>SSG (Static Site Generation)</strong>: The &ldquo;gotta go fast&rdquo; way. Server loads an HTML/CSS/JS bundle for web pages at build time. When browser requests a page, the server just sends this pre-built bundle back</p>
+<p><strong>ISG (Incremental Static Generation)</strong>: The &ldquo;imma cache stuff&rdquo; way. Server may load some HTML/CSS/JS bundles for web pages at build time. When the browser requests a page, the server sends this pre-built bundle back. If a pre-built bundle doesn&rsquo;t exist, it falls back to CSR while it builds the bundle. (There&rsquo;s more cool variations of this, like auto-rebuilding bundles after a certain time, etc. etc.).</p>
+<p><strong>ESR (Edge Slice Re-rendering)</strong>: The &ldquo;this stuff isn&rsquo;t prod-ready, very much in beta&rdquo; way. Server does SSG and tells the CDN to cache the bundles. Then, it instructs the CDN to update the bundle in the event that page content needs to change.</p>
+<p>In order of <strong>performance</strong>, usually:<br>
+(SSG = ISG = ESR) &gt; CSR &gt; SSR</p>
+<p>In order of <strong>SEO</strong>:<br>
+(SSR = SSG = ISG = ESR) &gt; CSR</p>
+<p>In order of <strong>correctness</strong> (will users be shown &ldquo;stale&rdquo; information?):<br>
+(SSR = CSR) &gt; ESR &gt; ISG &gt; SSG</p>
 
-                        </div>
-                        
-                        
-                    </div>
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2020-10-29</p>
+                    
                 </div>
+            </div>
             
-        
             
-            <a href="https://yogeshdhamija.github.io/cooked/cinnamon-dalia/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-divider">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                Recipe: Cinnamon Daliya
-                            </div>
-                            <div class="post-item-summary">
-                                
-                            </div>
-                            <div class="post-item-meta">
-    2020-08-31
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-</div>
+            <nav class="post-pagination">
 
-                        </div>
-                        
-                        
-                    </div>
-                </div>
-            
-        
-            
-            <a href="https://yogeshdhamija.github.io/cooked/chai/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-divider">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                Recipe: Chai
-                            </div>
-                            <div class="post-item-summary">
-                                
-                            </div>
-                            <div class="post-item-meta">
-    2020-07-16
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-</div>
+                
+                <a class="newer-posts" href="https://yogeshdhamija.github.io/learned/git-state-diagram/">
+			Next<br>Git State Diagram
+                </a>
+                
+                
+                
+                <a class="older-posts" href="https://yogeshdhamija.github.io/cooked/cinnamon-dalia/">
+			Previous<br>Recipe: Cinnamon Daliya
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
 
-                        </div>
-                        
-                        
-                            
-                            <div class="post-item-image-wrapper">
-                            <div class="post-item-image"
-                            
-                                 style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/f0/Kullad_chai.jpg')"
-                            
-                            ></div>
-                            </div>
-                        
-                    </div>
-                </div>
-            
-        
-            
-            <a href="https://yogeshdhamija.github.io/cooked/chole/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-divider">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                Recipe: Chole
-                            </div>
-                            <div class="post-item-summary">
-                                
-                            </div>
-                            <div class="post-item-meta">
-    2020-07-10
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-</div>
 
-                        </div>
-                        
-                        
-                            
-                            <div class="post-item-image-wrapper">
-                            <div class="post-item-image"
-                            
-                                 style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/38/Chole_Masala_India.jpg')"
-                            
-                            ></div>
-                            </div>
-                        
-                    </div>
-                </div>
-            
-        
-            
-            <a href="https://yogeshdhamija.github.io/did/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-divider">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                Things I Did - CV
-                            </div>
-                            <div class="post-item-summary">
-                                
-                            </div>
-                            <div class="post-item-meta">
-    2020-06-28
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-</div>
+<div id="gitalk-container"></div>
 
-                        </div>
-                        
-                        
-                    </div>
-                </div>
-            
-        
-            
-            <a href="https://yogeshdhamija.github.io/cooked/tadka/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-divider">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                Recipe: Tadka
-                            </div>
-                            <div class="post-item-summary">
-                                
-                            </div>
-                            <div class="post-item-meta">
-    2020-06-25
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-</div>
 
-                        </div>
-                        
-                        
-                    </div>
-                </div>
-            
-        
-            
-            <a href="https://yogeshdhamija.github.io/wrote/mayflies/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-divider">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                Story: Mayflies
-                            </div>
-                            <div class="post-item-summary">
-                                
-                            </div>
-                            <div class="post-item-meta">
-    2020-06-24
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-</div>
 
-                        </div>
-                        
-                        
-                    </div>
-                </div>
-            
-        
-            
-            <a href="https://yogeshdhamija.github.io/wrote/mutiny/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-divider">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                Story: Mutiny
-                            </div>
-                            <div class="post-item-summary">
-                                
-                            </div>
-                            <div class="post-item-meta">
-    2020-06-24
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-</div>
 
-                        </div>
-                        
-                        
-                    </div>
-                </div>
-            
-        
-            
-            <a href="https://yogeshdhamija.github.io/wrote/redress/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-divider">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                Story: Redress
-                            </div>
-                            <div class="post-item-summary">
-                                
-                            </div>
-                            <div class="post-item-meta">
-    2020-06-24
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-</div>
 
-                        </div>
-                        
-                        
-                    </div>
-                </div>
-            
-        
-        </a>
+
+            </div>
+        </div>
     </div>
 </div>
 
-            </div>
-
-<div class="pagination">
-    
-    <a class="pagination-action" style="opacity:0">
-    
-        <i class="material-icons pagination-action-icon">
-            chevron_left
-        </i>
-    </a>
-
-        <div class="pagination-indicator">
-            <span>1/2</span>
-        </div>
-
-        
-        <a class="pagination-action" href="/page/2/"
-           style="opacity:1">
-        
-                <i class="material-icons pagination-action-icon">
-                    chevron_right
-                </i>
-            </a>
-</div>
-
-
-<div id="single-column-footer">
+            </div><div id="single-column-footer">
 Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
 <br>
 Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>

@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My Thoughts</title>
+    <title>The Collection</title>
     <link>https://yogeshdhamija.github.io/</link>
-    <description>Recent content on My Thoughts</description>
+    <description>Recent content on The Collection</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 09 Nov 2020 22:26:22 -0500</lastBuildDate>
@@ -13,26 +13,26 @@
     
         <item>
         <title>Git State Diagram</title>
-        <link>https://yogeshdhamija.github.io/thoughts/git-state-diagram/</link>
+        <link>https://yogeshdhamija.github.io/learned/git-state-diagram/</link>
         <pubDate>Mon, 09 Nov 2020 22:26:22 -0500</pubDate>
         
-        <guid>https://yogeshdhamija.github.io/thoughts/git-state-diagram/</guid>
-        <description>My Thoughts https://yogeshdhamija.github.io/thoughts/git-state-diagram/ -&lt;h1 id=&#34;how-to-operate-git&#34;&gt;How to operate git:&lt;/h1&gt;
+        <guid>https://yogeshdhamija.github.io/learned/git-state-diagram/</guid>
+        <description>The Collection https://yogeshdhamija.github.io/learned/git-state-diagram/ -&lt;h1 id=&#34;how-to-operate-git&#34;&gt;How to operate git:&lt;/h1&gt;
 &lt;p&gt;&lt;img src=&#34;https://yogeshdhamija.github.io/gitStateDiagram.drawio.svg&#34; alt=&#34;Git State Diagram&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;how-the-git-directory-works&#34;&gt;How the &lt;code&gt;.git&lt;/code&gt; directory works:&lt;/h1&gt;
 &lt;p&gt;&lt;img src=&#34;https://yogeshdhamija.github.io/gitFolderOrg.drawio.svg&#34; alt=&#34;Git Folder Organization Diagram&#34;&gt;&lt;/p&gt;
-- https://yogeshdhamija.github.io/thoughts/git-state-diagram/ - </description>
+- https://yogeshdhamija.github.io/learned/git-state-diagram/ - </description>
         </item>
     
     
     
         <item>
         <title>Website Rendering Strategies</title>
-        <link>https://yogeshdhamija.github.io/thoughts/website-rendering-strategies/</link>
+        <link>https://yogeshdhamija.github.io/learned/website-rendering-strategies/</link>
         <pubDate>Thu, 29 Oct 2020 10:34:25 -0400</pubDate>
         
-        <guid>https://yogeshdhamija.github.io/thoughts/website-rendering-strategies/</guid>
-        <description>My Thoughts https://yogeshdhamija.github.io/thoughts/website-rendering-strategies/ -&lt;p&gt;Here&amp;rsquo;s a quick summary of the different ways you can load a website.&lt;/p&gt;
+        <guid>https://yogeshdhamija.github.io/learned/website-rendering-strategies/</guid>
+        <description>The Collection https://yogeshdhamija.github.io/learned/website-rendering-strategies/ -&lt;p&gt;Here&amp;rsquo;s a quick summary of the different ways you can load a website.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;SSR (Server Side Rendering)&lt;/strong&gt;: The classic way. Browser makes request to server, server loads an HTML/CSS/JS bundle, sends it to browser.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;CSR (Client Side Rendering)&lt;/strong&gt;: The vanilla React way. Browser makes a request to server, server sends back JS code which runs on browser, triggering browser to further make requests to load all assets.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;SSG (Static Site Generation)&lt;/strong&gt;: The &amp;ldquo;gotta go fast&amp;rdquo; way. Server loads an HTML/CSS/JS bundle for web pages at build time. When browser requests a page, the server just sends this pre-built bundle back&lt;/p&gt;
@@ -44,18 +44,18 @@
 (SSR = SSG = ISG = ESR) &amp;gt; CSR&lt;/p&gt;
 &lt;p&gt;In order of &lt;strong&gt;correctness&lt;/strong&gt; (will users be shown &amp;ldquo;stale&amp;rdquo; information?):&lt;br&gt;
 (SSR = CSR) &amp;gt; ESR &amp;gt; ISG &amp;gt; SSG&lt;/p&gt;
-- https://yogeshdhamija.github.io/thoughts/website-rendering-strategies/ - </description>
+- https://yogeshdhamija.github.io/learned/website-rendering-strategies/ - </description>
         </item>
     
     
     
         <item>
         <title>Recipe: Cinnamon Daliya</title>
-        <link>https://yogeshdhamija.github.io/recipes/cinnamon-dalia/</link>
+        <link>https://yogeshdhamija.github.io/cooked/cinnamon-dalia/</link>
         <pubDate>Mon, 31 Aug 2020 04:00:48 +0000</pubDate>
         
-        <guid>https://yogeshdhamija.github.io/recipes/cinnamon-dalia/</guid>
-        <description>My Thoughts https://yogeshdhamija.github.io/recipes/cinnamon-dalia/ -&lt;p&gt;~2 servings&lt;/p&gt;
+        <guid>https://yogeshdhamija.github.io/cooked/cinnamon-dalia/</guid>
+        <description>The Collection https://yogeshdhamija.github.io/cooked/cinnamon-dalia/ -&lt;p&gt;~2 servings&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Into a pot on stove:&lt;/strong&gt;&lt;br&gt;
 1 tablespoon butter&lt;br&gt;
 0.5 cup daliya (cracked wheat)&lt;/p&gt;
@@ -68,18 +68,18 @@
 1 teaspoon daalchini (cinnamon) powder&lt;br&gt;
 honey to taste&lt;br&gt;
 slicked almonds as a topping&lt;/p&gt;
-- https://yogeshdhamija.github.io/recipes/cinnamon-dalia/ - </description>
+- https://yogeshdhamija.github.io/cooked/cinnamon-dalia/ - </description>
         </item>
     
     
     
         <item>
         <title>Recipe: Chai</title>
-        <link>https://yogeshdhamija.github.io/recipes/chai/</link>
+        <link>https://yogeshdhamija.github.io/cooked/chai/</link>
         <pubDate>Thu, 16 Jul 2020 18:52:26 -0500</pubDate>
         
-        <guid>https://yogeshdhamija.github.io/recipes/chai/</guid>
-        <description>My Thoughts https://yogeshdhamija.github.io/recipes/chai/ -&lt;p&gt;~4 servings.&lt;/p&gt;
+        <guid>https://yogeshdhamija.github.io/cooked/chai/</guid>
+        <description>The Collection https://yogeshdhamija.github.io/cooked/chai/ -&lt;p&gt;~4 servings.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Into a large pot on stove:&lt;/strong&gt;&lt;br&gt;
 3 cups water&lt;br&gt;
 5 tablespoons Assam loose leaf black tea &lt;br&gt;
@@ -98,18 +98,18 @@ Lower heat to simmer and let it sit&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Source: &lt;a href=&#34;https://medium.com/@harshadkulkarni/the-perfect-indian-masala-chai-4e98fabf42ec&#34;&gt;&amp;ldquo;The Perfect Indian Masala Chai&amp;rdquo;, Medium article by Harshad Kulkarni&lt;/a&gt;, with modifications.&lt;br&gt;
 Image attribution: &lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Kullad_chai.jpg&#34;&gt;by Thecuriouseye, on Wikimedia Commons&lt;/a&gt;. Licence: &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34;&gt;CC BY-SA&lt;/a&gt;.&lt;/p&gt;
-- https://yogeshdhamija.github.io/recipes/chai/ - </description>
+- https://yogeshdhamija.github.io/cooked/chai/ - </description>
         </item>
     
     
     
         <item>
         <title>Recipe: Chole</title>
-        <link>https://yogeshdhamija.github.io/recipes/chole/</link>
+        <link>https://yogeshdhamija.github.io/cooked/chole/</link>
         <pubDate>Fri, 10 Jul 2020 22:28:46 -0500</pubDate>
         
-        <guid>https://yogeshdhamija.github.io/recipes/chole/</guid>
-        <description>My Thoughts https://yogeshdhamija.github.io/recipes/chole/ -&lt;p&gt;~5 servings.&lt;/p&gt;
+        <guid>https://yogeshdhamija.github.io/cooked/chole/</guid>
+        <description>The Collection https://yogeshdhamija.github.io/cooked/chole/ -&lt;p&gt;~5 servings.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Into a pot on stove:&lt;/strong&gt;&lt;br&gt;
 3 cups white chickpeas soaked overnight&lt;br&gt;
 &lt;em&gt;??? cups water&lt;/em&gt;  (enough to barely cover the chickpeas)&lt;br&gt;
@@ -146,35 +146,35 @@ until slightly too wet: add stock obtained previously, or water if there&amp;rsq
 &lt;hr&gt;
 &lt;p&gt;Source: &lt;a href=&#34;https://www.vegrecipesofindia.com/amritsari-chole-recipe/&#34;&gt;&amp;ldquo;Amritsari Chole&amp;rdquo;, by Dassana Amit&lt;/a&gt;, with modifications.
 Image attribution: &lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Chole_Masala_India.jpg&#34;&gt;by Divya Kudua, on Wikimedia Commons&lt;/a&gt;. Licence: &lt;a href=&#34;https://creativecommons.org/licenses/by/2.0&#34;&gt;CC BY&lt;/a&gt;.&lt;/p&gt;
-- https://yogeshdhamija.github.io/recipes/chole/ - </description>
+- https://yogeshdhamija.github.io/cooked/chole/ - </description>
         </item>
     
     
     
         <item>
-        <title>CV</title>
-        <link>https://yogeshdhamija.github.io/cv/</link>
+        <title>Things I Did - CV</title>
+        <link>https://yogeshdhamija.github.io/did/</link>
         <pubDate>Sun, 28 Jun 2020 17:09:04 -0500</pubDate>
         
-        <guid>https://yogeshdhamija.github.io/cv/</guid>
-        <description>My Thoughts https://yogeshdhamija.github.io/cv/ -
+        <guid>https://yogeshdhamija.github.io/did/</guid>
+        <description>The Collection https://yogeshdhamija.github.io/did/ -
 &lt;object data=&#34;/Yogesh Dhamija - CV.pdf&#34; type=&#34;application/pdf&#34; width=&#34;100%&#34; height=&#34;1129px&#34; style=&#34;position:relative; top:-150px; margin-bottom:-150px;&#34;&gt;
     &lt;embed src=&#34;https://yogeshdhamija.github.io/Yogesh Dhamija - CV.pdf&#34;&gt;
         &lt;p&gt;This browser does not support PDFs. Please download the PDF to view it: &lt;a href=&#34;https://yogeshdhamija.github.io/Yogesh Dhamija - CV.pdf&#34;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;
     &lt;/embed&gt;
 &lt;/object&gt;
-- https://yogeshdhamija.github.io/cv/ - </description>
+- https://yogeshdhamija.github.io/did/ - </description>
         </item>
     
     
     
         <item>
         <title>Recipe: Tadka</title>
-        <link>https://yogeshdhamija.github.io/recipes/tadka/</link>
+        <link>https://yogeshdhamija.github.io/cooked/tadka/</link>
         <pubDate>Thu, 25 Jun 2020 22:59:28 -0400</pubDate>
         
-        <guid>https://yogeshdhamija.github.io/recipes/tadka/</guid>
-        <description>My Thoughts https://yogeshdhamija.github.io/recipes/tadka/ -&lt;p&gt;&lt;strong&gt;Into a pan on stove:&lt;/strong&gt;&lt;br&gt;
+        <guid>https://yogeshdhamija.github.io/cooked/tadka/</guid>
+        <description>The Collection https://yogeshdhamija.github.io/cooked/tadka/ -&lt;p&gt;&lt;strong&gt;Into a pan on stove:&lt;/strong&gt;&lt;br&gt;
 1 tablespoon Olive Oil&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;When warm:&lt;/strong&gt;&lt;br&gt;
 1/2 teaspoon Cumin seeds (jira)&lt;/p&gt;
@@ -192,18 +192,18 @@ Image attribution: &lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Chole
 1/2 teaspoon turmeric (haldi)&lt;br&gt;
 Acid (lemon/lime juice)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Higher temp and mix. Add water if too dry.&lt;/strong&gt;&lt;/p&gt;
-- https://yogeshdhamija.github.io/recipes/tadka/ - </description>
+- https://yogeshdhamija.github.io/cooked/tadka/ - </description>
         </item>
     
     
     
         <item>
         <title>Story: Mayflies</title>
-        <link>https://yogeshdhamija.github.io/writing/mayflies/</link>
+        <link>https://yogeshdhamija.github.io/wrote/mayflies/</link>
         <pubDate>Wed, 24 Jun 2020 15:22:34 -0500</pubDate>
         
-        <guid>https://yogeshdhamija.github.io/writing/mayflies/</guid>
-        <description>My Thoughts https://yogeshdhamija.github.io/writing/mayflies/ -&lt;p&gt;The crowd went silent when the human entered the bar. You didn&amp;rsquo;t see many of their kind here. He grumbled, uncomfortable for the attention, walked up to the counter and signalled for a mug.&lt;/p&gt;
+        <guid>https://yogeshdhamija.github.io/wrote/mayflies/</guid>
+        <description>The Collection https://yogeshdhamija.github.io/wrote/mayflies/ -&lt;p&gt;The crowd went silent when the human entered the bar. You didn&amp;rsquo;t see many of their kind here. He grumbled, uncomfortable for the attention, walked up to the counter and signalled for a mug.&lt;/p&gt;
 &lt;p&gt;That&amp;rsquo;s when the whispers started. Mayfly. Young one. The walking dead. He was happy to down his ale.&lt;/p&gt;
 &lt;p&gt;You see, this wasn&amp;rsquo;t your average bar. This was a speakeasy, one of the few scattered across the world where the elves and the dwarves shared a drink. Where the seraphim flirted with yokai, while fae fluttered from table to table. Where the orcs played chess at their own table, practically drowning themselves in ale. Where seldom a human showed his face.&lt;/p&gt;
 &lt;p&gt;They aren&amp;rsquo;t rare, of course, humans. No, quite the opposite. They simply didn&amp;rsquo;t live long enough. Speakeasies are illegal, you see &amp;ndash; no self respecting elf could be seen drinking with a dwarf, or dare I say, an orc &amp;ndash; so they&amp;rsquo;re not exactly advertised. The humans who helped found these establishments had long since died. They&amp;rsquo;re mayflies, alive just barely long enough to be young, and dead practically as they learned to walk. The new humans since simply hadn&amp;rsquo;t heard of the place.&lt;/p&gt;
@@ -257,32 +257,32 @@ Acid (lemon/lime juice)&lt;/p&gt;
 &lt;p&gt;Thus leaving both men impressed, Drea grabbed Arthur by the arm, and they walked out of the bar together.&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;You are extraordinary, you know,&amp;rdquo; she said, &amp;ldquo;I&amp;rsquo;m very glad I met you. You must&amp;rsquo;ve been mad to approach one such as me, a high elf, so many years ago.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;He kissed her then, smiled, and said &amp;ldquo;No, not mad, my dear. Just bored.&amp;rdquo;&lt;/p&gt;
-- https://yogeshdhamija.github.io/writing/mayflies/ - </description>
+- https://yogeshdhamija.github.io/wrote/mayflies/ - </description>
         </item>
     
     
     
         <item>
         <title>Story: Mutiny</title>
-        <link>https://yogeshdhamija.github.io/writing/mutiny/</link>
+        <link>https://yogeshdhamija.github.io/wrote/mutiny/</link>
         <pubDate>Wed, 24 Jun 2020 15:22:34 -0500</pubDate>
         
-        <guid>https://yogeshdhamija.github.io/writing/mutiny/</guid>
-        <description>My Thoughts https://yogeshdhamija.github.io/writing/mutiny/ -&lt;p&gt;They&amp;rsquo;re all dumb as rocks. Basalt. They&amp;rsquo;re dumb as basalt. We had a budget of 160,000. That left us with less than 5,000 buffer after we dropped off 20 metric crap-tonnes of basalt and paid the ridiculous taxes to the various governments. That&amp;rsquo;s even after all my tricks. 5,000.&lt;/p&gt;
+        <guid>https://yogeshdhamija.github.io/wrote/mutiny/</guid>
+        <description>The Collection https://yogeshdhamija.github.io/wrote/mutiny/ -&lt;p&gt;They&amp;rsquo;re all dumb as rocks. Basalt. They&amp;rsquo;re dumb as basalt. We had a budget of 160,000. That left us with less than 5,000 buffer after we dropped off 20 metric crap-tonnes of basalt and paid the ridiculous taxes to the various governments. That&amp;rsquo;s even after all my tricks. 5,000.&lt;/p&gt;
 &lt;p&gt;Then some ship that hasn&amp;rsquo;t seen a car-wash in at least a century or two rolls around and asks for some money because of some supernova on some planet. It&amp;rsquo;s a scam! Anyone with two brain-cells to rub together and a Dr. Seuss poem for an education could figure that out! Oh, am I burned to a crisp? No? Then no bloody supernova! But nooooooo, they lay on some “we&amp;rsquo;re the last of our species” and “help me obi wan kenobi you&amp;rsquo;re my only hope” and all of a sudden our basalt of a captain gives them 10,000! And then he has the nerve to shrug at me and says “figure it out, Bob.”&lt;/p&gt;
 &lt;p&gt;Well I told ol&#39; Space Brad to help me and I&amp;rsquo;d give him a vacation and a fish, and he got right on board (after he reamed me for calling him Space Brad). So now our captain can go dig up for more basalt while I sell his fancy nacell collection to make up for the money. He&amp;rsquo;s tied up in the brig now. Go get his nacells or imma tell Space Brad to do your face in. And bring beer.&lt;/p&gt;
-- https://yogeshdhamija.github.io/writing/mutiny/ - </description>
+- https://yogeshdhamija.github.io/wrote/mutiny/ - </description>
         </item>
     
     
     
         <item>
         <title>Story: Redress</title>
-        <link>https://yogeshdhamija.github.io/writing/redress/</link>
+        <link>https://yogeshdhamija.github.io/wrote/redress/</link>
         <pubDate>Wed, 24 Jun 2020 15:22:34 -0500</pubDate>
         
-        <guid>https://yogeshdhamija.github.io/writing/redress/</guid>
-        <description>My Thoughts https://yogeshdhamija.github.io/writing/redress/ -&lt;h2 id=&#34;based-on-the-writing-prompt&#34;&gt;Based on the Writing Prompt:&lt;/h2&gt;
+        <guid>https://yogeshdhamija.github.io/wrote/redress/</guid>
+        <description>The Collection https://yogeshdhamija.github.io/wrote/redress/ -&lt;h2 id=&#34;based-on-the-writing-prompt&#34;&gt;Based on the Writing Prompt:&lt;/h2&gt;
 &lt;p&gt;You are the guardian of everything that has ever been lost. Anyone may come to you to reclaim what they have lost, but you require them to offer something of significant worth to take its place in your collection.&lt;/p&gt;
 &lt;h1 id=&#34;redress&#34;&gt;Redress&lt;/h1&gt;
 &lt;blockquote&gt;
@@ -313,7 +313,7 @@ Acid (lemon/lime juice)&lt;/p&gt;
 &lt;p&gt;It took more than I had to break from her embrace. My breathing betrayed my fear, and my heart fluttered its dissent, but my chest held high as I sat on the throne.&lt;/p&gt;
 &lt;p&gt;I grabbed the ledger from the old guardian, and I claimed its mark for myself, and I smiled. For the first time in years, I truly smiled.&lt;/p&gt;
 &lt;p&gt;“Go now,” I said, “your mother needs you.”&lt;/p&gt;
-- https://yogeshdhamija.github.io/writing/redress/ - </description>
+- https://yogeshdhamija.github.io/wrote/redress/ - </description>
         </item>
     
     
