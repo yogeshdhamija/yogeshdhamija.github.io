@@ -3,88 +3,96 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://yogeshdhamija.github.io/remember/parse-dont-validate/</loc>
-    <lastmod>2021-01-06T10:34:25-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yogeshdhamija.github.io/</loc>
     <lastmod>2021-01-06T10:34:25-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yogeshdhamija.github.io/remember/</loc>
+    <loc>https://yogeshdhamija.github.io/bookmarks/</loc>
     <lastmod>2021-01-06T10:34:25-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yogeshdhamija.github.io/learned/git-state-diagram/</loc>
+    <loc>https://yogeshdhamija.github.io/bookmarks/parse-dont-validate/</loc>
+    <lastmod>2021-01-06T10:34:25-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yogeshdhamija.github.io/notes/git-state-diagram/</loc>
     <lastmod>2020-11-09T22:26:22-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yogeshdhamija.github.io/learned/</loc>
+    <loc>https://yogeshdhamija.github.io/notes/</loc>
     <lastmod>2020-11-09T22:26:22-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yogeshdhamija.github.io/learned/website-rendering-strategies/</loc>
+    <loc>https://yogeshdhamija.github.io/notes/website-rendering-strategies/</loc>
     <lastmod>2020-10-29T10:34:25-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yogeshdhamija.github.io/cooked/cinnamon-dalia/</loc>
+    <loc>https://yogeshdhamija.github.io/recipes/cinnamon-dalia/</loc>
     <lastmod>2020-08-31T04:00:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yogeshdhamija.github.io/cooked/</loc>
+    <loc>https://yogeshdhamija.github.io/recipes/</loc>
     <lastmod>2020-08-31T04:00:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yogeshdhamija.github.io/cooked/chai/</loc>
+    <loc>https://yogeshdhamija.github.io/recipes/chai/</loc>
     <lastmod>2020-07-16T18:52:26-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yogeshdhamija.github.io/cooked/chole/</loc>
+    <loc>https://yogeshdhamija.github.io/recipes/chole/</loc>
     <lastmod>2020-07-10T22:28:46-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yogeshdhamija.github.io/did/</loc>
+    <loc>https://yogeshdhamija.github.io/cv/</loc>
     <lastmod>2020-06-28T17:09:04-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yogeshdhamija.github.io/cooked/tadka/</loc>
+    <loc>https://yogeshdhamija.github.io/recipes/tadka/</loc>
     <lastmod>2020-06-25T22:59:28-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yogeshdhamija.github.io/wrote/mayflies/</loc>
+    <loc>https://yogeshdhamija.github.io/writing/mayflies/</loc>
     <lastmod>2020-06-24T15:22:34-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yogeshdhamija.github.io/wrote/mutiny/</loc>
+    <loc>https://yogeshdhamija.github.io/writing/mutiny/</loc>
     <lastmod>2020-06-24T15:22:34-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yogeshdhamija.github.io/wrote/redress/</loc>
+    <loc>https://yogeshdhamija.github.io/writing/redress/</loc>
     <lastmod>2020-06-24T15:22:34-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yogeshdhamija.github.io/wrote/butterfly/</loc>
+    <loc>https://yogeshdhamija.github.io/writing/butterfly/</loc>
     <lastmod>2020-06-24T15:22:34-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yogeshdhamija.github.io/wrote/</loc>
+    <loc>https://yogeshdhamija.github.io/writing/</loc>
     <lastmod>2020-06-24T15:22:34-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yogeshdhamija.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yogeshdhamija.github.io/tags/</loc>
   </url>
   
 </urlset>

@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html><head>
-	<meta name="generator" content="Hugo 0.80.0" />
-<title>All Things Yogesh</title>
+<title>Git State Diagram</title>
 
 
-
-  
 
 
 <meta charset="utf-8">
@@ -54,6 +51,10 @@
 
 
 
+  
+    <script src="https://yogeshdhamija.github.io//js/toc-collapse.js"></script>
+  
+
 
 
 
@@ -67,7 +68,7 @@
 <body>
     	<div id="app"><div ref="sideContainer" class="side-container">
     
-    <a class="a-block nav-head active" href="https://yogeshdhamija.github.io/">
+    <a class="a-block nav-head false" href="https://yogeshdhamija.github.io/">
     
         <div class="nav-title">
             All Things Yogesh
@@ -81,9 +82,11 @@
             
             
             
+                
             
             
-            <a class="a-block nav-link-item false" href="/notes">
+            
+            <a class="a-block nav-link-item active" href="/notes">
                 Notes
             </a>
             
@@ -149,6 +152,78 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 </div><div ref="extraContainer" class="extra-container">
     
     
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#cheat-sheet" onclick="onNavClick(`#cheat-sheet-nav`)" id="cheat-sheet-nav">
+									Cheat Sheet
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#state-diagram" onclick="onNavClick(`#state-diagram-nav`)" id="state-diagram-nav">
+									State Diagram
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#how-the-git-directory-works" onclick="onNavClick(`#how-the-git-directory-works-nav`)" id="how-the-git-directory-works-nav">
+									How the .git directory works
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+    
     <div class="pagination">
         <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
             <i class="material-icons pagination-action-icon">
@@ -166,24 +241,6 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
         </a>
         
         
-        
-            <div class="pagination-indicator">
-                <span style="text-align: center">
-                    2<br><div style="display: inline-block; transform: rotate(-28deg)">-</div><br>2
-                </span>
-            </div>
-            
-            
-            <a class="pagination-action" href="/">
-                <i class="material-icons pagination-action-icon">
-                    chevron_left
-                </i>
-            </a>
-            
-
-            
-        
-        
     </div>
 </div>
 <div class="single-column-drawer-container" ref="drawer"
@@ -196,9 +253,11 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
                 
                 
+                    
                 
                 
-                <a class="a-block drawer-menu-item false" href="/notes">
+                
+                <a class="a-block drawer-menu-item active" href="/notes">
                     Notes
                 </a>
                 
@@ -244,6 +303,78 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
             
             
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#cheat-sheet" onclick="onNavClick(`#cheat-sheet-nav`)" id="cheat-sheet-nav">
+									Cheat Sheet
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#state-diagram" onclick="onNavClick(`#state-diagram-nav`)" id="state-diagram-nav">
+									State Diagram
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#how-the-git-directory-works" onclick="onNavClick(`#how-the-git-directory-works-nav`)" id="how-the-git-directory-works-nav">
+									How the .git directory works
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
         </div>
     </div>
 </div>
@@ -283,96 +414,95 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 </div>
 
             <div id="content">
-
 <div ref="streamContainer" class="stream-container">
-    <div class="post-list-container post-list-container-no-background">
-        
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
             
-            <a href="https://yogeshdhamija.github.io/writing/redress/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-divider">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                Redress
-                            </div>
-                            <div class="post-item-summary">
-                                
-                            </div>
-                            <div class="post-item-meta">
-    2020-06-24
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-</div>
+            
+            
 
-                        </div>
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    Git State Diagram
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2020-11-09 22:26
+                        </time>
+                        
+
+                        
+
                         
                         
                     </div>
                 </div>
+            </div>
             
-        
-            
-            <a href="https://yogeshdhamija.github.io/writing/butterfly/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-divider">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                The Butterfly
-                            </div>
-                            <div class="post-item-summary">
-                                
-                            </div>
-                            <div class="post-item-meta">
-    2020-06-24
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-</div>
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <h1 id="cheat-sheet">Cheat Sheet</h1>
+<p>General POSIX commands to know:</p>
+<pre><code>pwd
+cd
+ls
+mkdir 
+</code></pre><hr>
+<p>To clone a repository into the current folder:</p>
+<pre><code>git clone REPO_URL
+</code></pre><hr>
+<p>Commands to remember:</p>
+<pre><code>git status
+git add file1 file2
+git commit --message &quot;program does new thing&quot;
+git push
+</code></pre><h1 id="state-diagram">State Diagram</h1>
+<p><img src="/gitStateDiagram.drawio.svg" alt="Git State Diagram"></p>
+<h1 id="how-the-git-directory-works">How the <code>.git</code> directory works</h1>
+<p><img src="/gitFolderOrg.drawio.svg" alt="Git Folder Organization Diagram"></p>
 
-                        </div>
-                        
-                        
-                    </div>
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2020-11-09</p>
+                    
                 </div>
+            </div>
             
-        
-        </a>
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="https://yogeshdhamija.github.io/bookmarks/parse-dont-validate/">
+			Next<br>Parse, Don&#39;t Validate
+                </a>
+                
+                
+                
+                <a class="older-posts" href="https://yogeshdhamija.github.io/notes/website-rendering-strategies/">
+			Previous<br>Website Rendering Strategies
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+            </div>
+        </div>
     </div>
 </div>
 
-            </div>
-
-<div class="pagination">
-    
-    <a class="pagination-action" href="/" style="opacity:1">
-    
-        <i class="material-icons pagination-action-icon">
-            chevron_left
-        </i>
-    </a>
-
-        <div class="pagination-indicator">
-            <span>2/2</span>
-        </div>
-
-        
-            <a class="pagination-action" style="opacity:0">
-        
-                <i class="material-icons pagination-action-icon">
-                    chevron_right
-                </i>
-            </a>
-</div>
-
-
-<div id="single-column-footer">
+            </div><div id="single-column-footer">
 Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
 <br>
 Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>

@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html><head>
-	<meta name="generator" content="Hugo 0.80.0" />
-<title>All Things Yogesh</title>
+<title>Website Rendering Strategies</title>
 
 
-
-  
 
 
 <meta charset="utf-8">
@@ -54,6 +51,10 @@
 
 
 
+  
+    <script src="https://yogeshdhamija.github.io//js/toc-collapse.js"></script>
+  
+
 
 
 
@@ -67,7 +68,7 @@
 <body>
     	<div id="app"><div ref="sideContainer" class="side-container">
     
-    <a class="a-block nav-head active" href="https://yogeshdhamija.github.io/">
+    <a class="a-block nav-head false" href="https://yogeshdhamija.github.io/">
     
         <div class="nav-title">
             All Things Yogesh
@@ -81,9 +82,11 @@
             
             
             
+                
             
             
-            <a class="a-block nav-link-item false" href="/notes">
+            
+            <a class="a-block nav-link-item active" href="/notes">
                 Notes
             </a>
             
@@ -149,6 +152,11 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 </div><div ref="extraContainer" class="extra-container">
     
     
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+</div>
+    
     <div class="pagination">
         <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
             <i class="material-icons pagination-action-icon">
@@ -166,24 +174,6 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
         </a>
         
         
-        
-            <div class="pagination-indicator">
-                <span style="text-align: center">
-                    2<br><div style="display: inline-block; transform: rotate(-28deg)">-</div><br>2
-                </span>
-            </div>
-            
-            
-            <a class="pagination-action" href="/">
-                <i class="material-icons pagination-action-icon">
-                    chevron_left
-                </i>
-            </a>
-            
-
-            
-        
-        
     </div>
 </div>
 <div class="single-column-drawer-container" ref="drawer"
@@ -196,9 +186,11 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
                 
                 
+                    
                 
                 
-                <a class="a-block drawer-menu-item false" href="/notes">
+                
+                <a class="a-block drawer-menu-item active" href="/notes">
                     Notes
                 </a>
                 
@@ -244,6 +236,11 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
             
             
+            <div class="toc">
+
+
+</div>
+            
         </div>
     </div>
 </div>
@@ -283,96 +280,88 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 </div>
 
             <div id="content">
-
 <div ref="streamContainer" class="stream-container">
-    <div class="post-list-container post-list-container-no-background">
-        
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
             
-            <a href="https://yogeshdhamija.github.io/writing/redress/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-divider">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                Redress
-                            </div>
-                            <div class="post-item-summary">
-                                
-                            </div>
-                            <div class="post-item-meta">
-    2020-06-24
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-</div>
+            
+            
 
-                        </div>
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    Website Rendering Strategies
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2020-10-29 10:34
+                        </time>
+                        
+
+                        
+
                         
                         
                     </div>
                 </div>
+            </div>
             
-        
-            
-            <a href="https://yogeshdhamija.github.io/writing/butterfly/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-divider">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                The Butterfly
-                            </div>
-                            <div class="post-item-summary">
-                                
-                            </div>
-                            <div class="post-item-meta">
-    2020-06-24
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-</div>
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>Here&rsquo;s a quick summary of the different ways you can load a website.</p>
+<p><strong>SSR (Server Side Rendering)</strong>: The classic way. Browser makes request to server, server loads an HTML/CSS/JS bundle, sends it to browser.</p>
+<p><strong>CSR (Client Side Rendering)</strong>: The vanilla React way. Browser makes a request to server, server sends back JS code which runs on browser, triggering browser to further make requests to load all assets.</p>
+<p><strong>SSG (Static Site Generation)</strong>: The &ldquo;gotta go fast&rdquo; way. Server loads an HTML/CSS/JS bundle for web pages at build time. When browser requests a page, the server just sends this pre-built bundle back</p>
+<p><strong>ISG (Incremental Static Generation)</strong>: The &ldquo;imma cache stuff&rdquo; way. Server may load some HTML/CSS/JS bundles for web pages at build time. When the browser requests a page, the server sends this pre-built bundle back. If a pre-built bundle doesn&rsquo;t exist, it falls back to CSR while it builds the bundle. (There&rsquo;s more cool variations of this, like auto-rebuilding bundles after a certain time, etc. etc.).</p>
+<p><strong>ESR (Edge Slice Re-rendering)</strong>: The &ldquo;this stuff isn&rsquo;t prod-ready, very much in beta&rdquo; way. Server does SSG and tells the CDN to cache the bundles. Then, it instructs the CDN to update the bundle in the event that page content needs to change.</p>
+<p>In order of <strong>performance</strong>, usually:<br>
+(SSG = ISG = ESR) &gt; CSR &gt; SSR</p>
+<p>In order of <strong>SEO</strong>:<br>
+(SSR = SSG = ISG = ESR) &gt; CSR</p>
+<p>In order of <strong>correctness</strong> (will users be shown &ldquo;stale&rdquo; information?):<br>
+(SSR = CSR) &gt; ESR &gt; ISG &gt; SSG</p>
 
-                        </div>
-                        
-                        
-                    </div>
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2020-10-29</p>
+                    
                 </div>
+            </div>
             
-        
-        </a>
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="https://yogeshdhamija.github.io/notes/git-state-diagram/">
+			Next<br>Git State Diagram
+                </a>
+                
+                
+                
+                <a class="older-posts" href="https://yogeshdhamija.github.io/recipes/cinnamon-dalia/">
+			Previous<br>Cinnamon Daliya
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+            </div>
+        </div>
     </div>
 </div>
 
-            </div>
-
-<div class="pagination">
-    
-    <a class="pagination-action" href="/" style="opacity:1">
-    
-        <i class="material-icons pagination-action-icon">
-            chevron_left
-        </i>
-    </a>
-
-        <div class="pagination-indicator">
-            <span>2/2</span>
-        </div>
-
-        
-            <a class="pagination-action" style="opacity:0">
-        
-                <i class="material-icons pagination-action-icon">
-                    chevron_right
-                </i>
-            </a>
-</div>
-
-
-<div id="single-column-footer">
+            </div><div id="single-column-footer">
 Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
 <br>
 Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
