@@ -212,16 +212,16 @@ warning: [-Wincomplete-patterns] Pattern match(es) are non-exhaustive In an equa
         <guid>https://yogeshdhamija.github.io/notes/git-state-diagram/</guid>
         <description>All Things Yogesh https://yogeshdhamija.github.io/notes/git-state-diagram/ -&lt;h1 id=&#34;cheat-sheet&#34;&gt;Cheat Sheet&lt;/h1&gt;
 &lt;p&gt;General POSIX commands to know:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;pwd
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;pwd
 cd
 ls
 mkdir 
 &lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
 &lt;p&gt;To clone a repository into the current folder:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;git clone REPO_URL
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git clone REPO_URL
 &lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
 &lt;p&gt;Commands to remember:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;git status
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git status
 git add file1 file2
 git commit --message &amp;quot;program does new thing&amp;quot;
 git push
